@@ -1,0 +1,78 @@
+---Description---
+
+The idea
+
+Make RepRap more accessible to those without 3D printing technology already
+
+Goals
+
+1) Minimal unique piece count to allow for production from molds.
+
+2) Parts available world wide.
+
+3) Modular for multiple configurations.
+
+Outcome
+
+1) Only eight unique pieces.
+
+2)a Frame made can be made from: Bamboo, Conduit, tubing, pipe, ...
+b Tapered holes for Z axis guides for metric or imperial materials.
+c No critical bolt sizes.
+d Uses (wire rope / aircraft cable / fishing wire) instead of belts.
+
+3) see pictures and continue reading.
+
+Color code for renderings
+
+Yellow = Bamboo/conduit/tubing/etc.
+White = Printed or molded parts.
+Black = Metal parts.
+Red = Aircraft cable/fishing wire/wire rope
+Green = Sheet material. (plywood/plexiglass/...)
+
+Additional benefits
+
+A) If printed from PLA and made from bamboo most of it can be composted.
+
+B) You can grow the frame in most habitable parts of the world.
+
+C) Can be built larger scale for producing furniture and larger items using a frostruder and earth based pastes.
+
+D) As Twotimes pointed out if you use thingiverse.com/thing:4439 it will be almost entirely printable
+
+Attribution
+Modeled using Spacexulas Nema 17 thingiverse.com/thing:3940
+Uses Herringbone gears from Rhys-Jones thingiverse.com/thing:5111
+Drums derived from 2ROBOTGUYs pulley thingiverse.com/thing:5109
+Motor mounts derived from Wades extruder thingiverse.com/thing:1794
+Requires PrusaJr style bushings
+thingiverse.com/thing:4177 or
+thingiverse.com/thing:4501 or
+thingiverse.com/thing:4434 or
+thingiverse.com/thing:4460
+
+Updates
+
+Dec 27/10 Added Vertex_2.stl Easier to scale and make molds of.
+thingiverse.com/thing:5318
+
+Dec 27/10 The original files were scaled wrong and needed to be scaled by 1.333. All the files have been replaced. 
+
+---Instructions---
+
+I will add instruction at some point but for now just a little on how it should work.
+
+All axis are geared down using herringbone gears for high torque to overcome friction. Currently using Rhys-Jones Herringbones gears from thing thingiverse.com/thing:5111
+
+The Aircraft cable is wrapped around the Z axis axle for maximum torque and highest resolution. While it is wrapped around drums on the X and Y axis for higher speeds while still being geared down for torque. I believe two to three wraps around the axle and/or drum should provide adequate gripe as long as the springs used to keep the tension are very strong.
+
+It currently uses prusa style bushing for the guides.
+For longer lasting bushings use thingiverse.com/thing:4501 with bronze bushings in them similar to these princessauto.com/components/com_virtuemart/shop_image/product/3872025.jpg
+
+The vertexes. (should be made parameterized)
+They are currently modeled for 20mm id bamboo. They have a tapered hole for the Z axis rod which will allow for slight scaling without any issues. The holes for the axles are 8.5mm and will require modifying/drilling if scaled much. They are designed to expand inside of the hollow material when a screw or lag bolt is screwed in.
+
+I am aware this will be a little hard to assemble square and true due to the lack of adjustment, but possible. It will require shims etc.
+
+Hopefully everything works as designed but even if it doesn't maybe it will inspire others.
